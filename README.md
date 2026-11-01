@@ -1,10 +1,10 @@
 # Building on BMAD reference package
 
-Version 09 | October 31, 2026
+Version 09.02 | November 01, 2026
 
 Prepared by Alex Markevich | https://qasolver.io | QASolver LLC
 
-This package accompanies Building on BMAD v09. It supplies two reviewable reference checkers, executable qualification controls, and illustrative inputs. It is an independent publication and is not an official BMAD distribution.
+This package accompanies Building on BMAD v09.02. It supplies two reviewable reference checkers, executable qualification controls, and illustrative inputs. It is an independent publication and is not an official BMAD distribution.
 
 ## Run the local qualification
 
