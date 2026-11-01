@@ -1,10 +1,10 @@
 # Building on BMAD reference package
 
-Version 09.02 | November 01, 2026
+Version 09.03 | November 01, 2026
 
 Prepared by Alex Markevich | https://qasolver.io | QASolver LLC
 
-This package accompanies Building on BMAD v09.02. It supplies two reviewable reference checkers, executable qualification controls, and illustrative inputs. It is an independent publication and is not an official BMAD distribution.
+This package accompanies Building on BMAD v09.03. It supplies two reviewable reference checkers, executable qualification controls, and illustrative inputs. It is an independent publication and is not an official BMAD distribution.
 
 ## Run the local qualification
 
@@ -71,7 +71,7 @@ The final argument must be the actual original runner exit, never a hard-coded s
 
 ## Integrity and adoption
 
-`MANIFEST.json` records SHA-256 for each shipped package file except itself. Verify it before installing reviewed copies in a protected repository. A checksum detects byte differences; it is not a publisher signature or approval. Keep the archive version, checker hashes, test results, and the approved toolchain record together. If published in a repository, bind references to the tested immutable commit. Requalify after any material model, agent, parser, permission, runner, or host change.
+`MANIFEST.json` records SHA-256 for each shipped package file except itself. Verify it before installing reviewed copies in a protected repository. A checksum detects byte differences; it is not a publisher signature or approval. Keep the tested commit SHA, checker hashes, qualification results, and approved toolchain record together. Use the named version tag for discovery and pin implementation references to the tested immutable commit SHA. Requalify after any material model, agent, parser, permission, runner, or host change.
 
 Official sources used by this reference:
 
