@@ -1,0 +1,18 @@
+{
+  "schema": 2,
+  "story": "RPT-EXPORT",
+  "requirementRevision": "req-r3",
+  "prd": {
+    "path": "product/export/PRD.md",
+    "revision": "prd-r3",
+    "sha256": "4b41e1f4a09fabfc733022d78682c84be06393779f5f2eb4dfc26cb93eeb1f48",
+    "approvalRef": "review-system/PRD-EXPORT/approval-17",
+    "requirements": ["RPT-01", "RPT-02"]
+  },
+  "repetitions": 1,
+  "required": [
+    { "id": "S-01", "testId": "AC-1", "project": "chromium" },
+    { "id": "S-02", "testId": "AC-2", "project": "chromium" }
+  ],
+  "allowedSkips": []
+}

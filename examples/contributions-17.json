@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "coverage": "complete",
+  "repo": "example-org/example-repo",
+  "pull": 17,
+  "head": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "commits": [
+    {
+      "sha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "authorId": 2001,
+      "committerId": 2002,
+      "additionalContributorIds": []
+    }
+  ],
+  "pushes": [
+    {
+      "head": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "pusherId": 2003,
+      "pushedAt": "2026-10-30T12:00:00Z",
+      "deliveryId": "push-17-1"
+    }
+  ]
+}

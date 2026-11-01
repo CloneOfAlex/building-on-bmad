@@ -1,0 +1,20 @@
+{
+  "package": "Building_on_BMAD_Companion_v09",
+  "version": "09",
+  "files": {
+    ".gitattributes": "7cc91c2d36b9bbf218de981f7ef8cbec78b860c2f81dae7fe85f2c5e92b986a1",
+    "README.md": "7753943fcff4764fa840fc6f53ec8bd335e5ce7dadd889f0428e3de4b8b5e5a7",
+    "examples/active-prd.json": "f83268fe7af834ba3a3d8261f0a51ba69f1c8e4b50d8c806baa23a42c9c00409",
+    "examples/contributions-17.json": "d8e792e1cc0275cd1ca49ee941126641a4c742e1f3b6a694bf619f954d0b0d50",
+    "examples/export-policy.json": "fe691118cd0231bb9cca254b57f6d3402d587f1aecc58d972e394ffc47512751",
+    "examples/product/export/PRD.md": "4b41e1f4a09fabfc733022d78682c84be06393779f5f2eb4dfc26cb93eeb1f48",
+    "examples/task-request.json": "d28072ac299494e47eeb86ad8005d59e5a78f12b8aea6dccb8dfd35591da5efb",
+    "gate-check.mjs": "5b63a72e101fcf5dc8d067b1a79b5bff76adbdefbaa77a424ea0d06a01ad6da4",
+    "package.json": "4e9b5e749ad0338bc568a773ae8ad0ed03006d08ff6e7c5f0bcc94ec98b64c7c",
+    "prd-approval.mjs": "2510c806762c760d9e3406c0a76fe47004194fd82c15eadb22841a598f3e4f55",
+    "qualification.json": "119e5f2229aa3cc0412b71460c41c7e9ed5ad62a78ad38501d7a41619ad34d2a",
+    "tests/checkout.mjs": "3a0345c4bde3d8b023cf04fa5ac5ccd60672d4b420a2338e3932257439c22bcb",
+    "tests/execution.mjs": "93930a267414af82967eba646c8482ac4acead6f791d3c5e456a3525709a392f",
+    "tests/qualify.mjs": "63e71476cac3ec0e0468ff6b7cc111f74077ea621a0e12a14ad69ffd5d004eb9"
+  }
+}

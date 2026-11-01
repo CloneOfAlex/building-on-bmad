@@ -1,0 +1,368 @@
+{
+  "approvalControls": 66,
+  "rowControls": 6,
+  "allPassed": true,
+  "liveRepositoryValidation": false,
+  "cases": [
+    {
+      "name": "clean active baseline",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "clean review phase",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "inactive baseline",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong revision",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong request digest",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "changed local PRD",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "changed remote PRD",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unauthorized reviewer",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "bot approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "author approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing QA responsibility",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "old commit approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "dismissed approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "later change request",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "comment preserves approval",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "new approval after change request",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "unmerged active PR",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "merged proposal cannot be review phase",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "draft review PR",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong base branch",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong repository",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong PR number",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "head changed",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unapproved requirement",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "empty scope",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "duplicate scope",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unassigned role",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "insufficient distinct reviewers",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "two-person mode with qualified independent reviewer",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "last pusher cannot satisfy QA approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "committer cannot satisfy QA approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "author cannot satisfy QA approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "earlier pusher cannot satisfy QA approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "additional contributor cannot satisfy QA approval",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "review before latest push rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "review simultaneous with push held",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "invalid review timestamp rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing contribution evidence rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "untrusted ledger edit rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "incomplete ledger rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "wrong ledger head rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing commit record rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "extra API commit requires coverage",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "different commit set rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unmapped author identity held",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unmapped committer identity held",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "host and ledger identity mismatch rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing push history rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing pusher identity rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "last pushed head mismatch rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "duplicate delivery rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "invalid push timestamp rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "CRLF local checkout fails with LF baseline",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "bullet requirement format rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "bold requirement format rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "clean API adapter",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "all review pages retrieved",
+      "expected": "pass",
+      "passed": true
+    },
+    {
+      "name": "API HTTP error holds execution",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "API transport error holds execution",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "malformed review retrieval rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "unsupported source representation rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "head changes during adapter run",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "oversize file rejected explicitly",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "file size mismatch rejected",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "incomplete API commits held",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "missing API credential",
+      "expected": "reject",
+      "passed": true
+    },
+    {
+      "name": "permuted rows accepted",
+      "expected": "match",
+      "passed": true
+    },
+    {
+      "name": "changed values rejected",
+      "expected": "mismatch",
+      "passed": true
+    },
+    {
+      "name": "different identity rejected",
+      "expected": "mismatch",
+      "passed": true
+    },
+    {
+      "name": "duplicate count retained",
+      "expected": "mismatch",
+      "passed": true
+    },
+    {
+      "name": "missing row rejected",
+      "expected": "mismatch",
+      "passed": true
+    },
+    {
+      "name": "additional field rejected",
+      "expected": "mismatch",
+      "passed": true
+    }
+  ]
+}

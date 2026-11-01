@@ -1,0 +1,9 @@
+{
+  "prdId": "PRD-EXPORT",
+  "revision": "prd-r3",
+  "sha256": "4b41e1f4a09fabfc733022d78682c84be06393779f5f2eb4dfc26cb93eeb1f48",
+  "requirements": [
+    "RPT-01",
+    "RPT-02"
+  ]
+}
